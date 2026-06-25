@@ -1,0 +1,2638 @@
+[10-Jan-2026 18:33:46 Europe/Berlin] POST Data Received: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriyavenkatesan.v@gmail.com
+    [mobile] => 8072283302
+    [special_note] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+)
+
+[10-Jan-2026 18:37:18 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 18:37:18 Europe/Berlin] Raw POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriyavenkatesan.v@gmail.com
+    [mobile] => 8072283302
+    [special_note] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+)
+
+[10-Jan-2026 18:37:18 Europe/Berlin] Raw INPUT data: first_name=Devipriya&last_name=Admin&email=devipriyavenkatesan.v%40gmail.com&mobile=8072283302&special_note=Lorem+ipsum+is+a+dummy+or+placeholder+text+commonly+used+in+graphic+design%2C+publishing%2C+and+web+development.
+[10-Jan-2026 18:37:18 Europe/Berlin] Extracted Values:
+[10-Jan-2026 18:37:18 Europe/Berlin] Name: Devipriya
+[10-Jan-2026 18:37:18 Europe/Berlin] Email: devipriyavenkatesan.v@gmail.com
+[10-Jan-2026 18:37:18 Europe/Berlin] Phone: 8072283302
+[10-Jan-2026 18:37:18 Europe/Berlin] Company: 
+[10-Jan-2026 18:37:18 Europe/Berlin] Subject: Contact Form Inquiry from Devipriya
+[10-Jan-2026 18:37:18 Europe/Berlin] Message: Phone: 8072283302...
+[10-Jan-2026 18:37:19 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 smtp.mailtrap.io ESMTP ready
+
+[10-Jan-2026 18:37:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:37:19 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 STARTTLS
+
+[10-Jan-2026 18:37:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[10-Jan-2026 18:37:20 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Start TLS
+
+[10-Jan-2026 18:37:22 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:37:23 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 AUTH PLAIN LOGIN CRAM-MD5
+
+[10-Jan-2026 18:37:23 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: AUTH CRAM-MD5
+
+[10-Jan-2026 18:37:23 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 PDE0Nzg1ODQxMzkuMTc2ODA2NjY0MkBzbXRwLm1haWx0cmFwLmlvPg==
+
+[10-Jan-2026 18:37:23 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 18:37:24 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 535 5.7.0 Invalid credentials
+
+[10-Jan-2026 18:37:24 Europe/Berlin] PHPMailer Debug: SMTP ERROR: Username command failed: 535 5.7.0 Invalid credentials
+
+[10-Jan-2026 18:37:24 Europe/Berlin] PHPMailer Debug: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:37:24 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[10-Jan-2026 18:37:24 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 
+[10-Jan-2026 18:37:24 Europe/Berlin] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[10-Jan-2026 18:37:24 Europe/Berlin] PHPMailer Debug: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:37:24 Europe/Berlin] Email sending error: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:47:24 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 18:47:24 Europe/Berlin] Raw POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriyavenkatesan.v@gmail.com
+    [mobile] => 8072283302
+    [special_note] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+)
+
+[10-Jan-2026 18:47:24 Europe/Berlin] Raw INPUT data: first_name=Devipriya&last_name=Admin&email=devipriyavenkatesan.v%40gmail.com&mobile=8072283302&special_note=Lorem+ipsum+is+a+dummy+or+placeholder+text+commonly+used+in+graphic+design%2C+publishing%2C+and+web+development.
+[10-Jan-2026 18:47:24 Europe/Berlin] Extracted Values:
+[10-Jan-2026 18:47:24 Europe/Berlin] Name: Devipriya
+[10-Jan-2026 18:47:24 Europe/Berlin] Email: devipriyavenkatesan.v@gmail.com
+[10-Jan-2026 18:47:24 Europe/Berlin] Phone: 8072283302
+[10-Jan-2026 18:47:24 Europe/Berlin] Company: 
+[10-Jan-2026 18:47:24 Europe/Berlin] Subject: Contact Form Inquiry from Devipriya
+[10-Jan-2026 18:47:24 Europe/Berlin] Message: Phone: 8072283302...
+[10-Jan-2026 18:47:25 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 smtp.mailtrap.io ESMTP ready
+
+[10-Jan-2026 18:47:25 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:47:26 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 STARTTLS
+
+[10-Jan-2026 18:47:26 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[10-Jan-2026 18:47:26 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Start TLS
+
+[10-Jan-2026 18:47:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:47:29 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 AUTH PLAIN LOGIN CRAM-MD5
+
+[10-Jan-2026 18:47:29 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: AUTH CRAM-MD5
+
+[10-Jan-2026 18:47:29 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 PDEzNTM4OTM2OTIuMTc2ODA2NzI0OEBzbXRwLm1haWx0cmFwLmlvPg==
+
+[10-Jan-2026 18:47:29 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 18:47:29 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 535 5.7.0 Invalid credentials
+
+[10-Jan-2026 18:47:29 Europe/Berlin] PHPMailer Debug: SMTP ERROR: Username command failed: 535 5.7.0 Invalid credentials
+
+[10-Jan-2026 18:47:29 Europe/Berlin] PHPMailer Debug: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:47:29 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[10-Jan-2026 18:47:30 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 
+[10-Jan-2026 18:47:30 Europe/Berlin] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[10-Jan-2026 18:47:30 Europe/Berlin] PHPMailer Debug: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:47:30 Europe/Berlin] Email sending error: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:48:17 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 18:48:17 Europe/Berlin] Raw POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriyavenkatesan.v@gmail.com
+    [mobile] => 8072283302
+    [special_note] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+)
+
+[10-Jan-2026 18:48:17 Europe/Berlin] Raw INPUT data: first_name=Devipriya&last_name=Admin&email=devipriyavenkatesan.v%40gmail.com&mobile=8072283302&special_note=Lorem+ipsum+is+a+dummy+or+placeholder+text+commonly+used+in+graphic+design%2C+publishing%2C+and+web+development.
+[10-Jan-2026 18:48:17 Europe/Berlin] Extracted Values:
+[10-Jan-2026 18:48:17 Europe/Berlin] Name: Devipriya
+[10-Jan-2026 18:48:17 Europe/Berlin] Email: devipriyavenkatesan.v@gmail.com
+[10-Jan-2026 18:48:17 Europe/Berlin] Phone: 8072283302
+[10-Jan-2026 18:48:17 Europe/Berlin] Company: 
+[10-Jan-2026 18:48:17 Europe/Berlin] Subject: Contact Form Inquiry from Devipriya
+[10-Jan-2026 18:48:17 Europe/Berlin] Message: Phone: 8072283302...
+[10-Jan-2026 18:48:18 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 smtp.mailtrap.io ESMTP ready
+
+[10-Jan-2026 18:48:18 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:48:18 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 STARTTLS
+
+[10-Jan-2026 18:48:18 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[10-Jan-2026 18:48:18 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Start TLS
+
+[10-Jan-2026 18:48:20 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:48:21 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 AUTH PLAIN LOGIN CRAM-MD5
+
+[10-Jan-2026 18:48:21 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: AUTH CRAM-MD5
+
+[10-Jan-2026 18:48:21 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 PDg4MjM5OTA2Ny4xNzY4MDY3MzAxQHNtdHAubWFpbHRyYXAuaW8+
+
+[10-Jan-2026 18:48:21 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 18:48:22 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 535 5.7.0 Invalid credentials
+
+[10-Jan-2026 18:48:22 Europe/Berlin] PHPMailer Debug: SMTP ERROR: Username command failed: 535 5.7.0 Invalid credentials
+
+[10-Jan-2026 18:48:22 Europe/Berlin] PHPMailer Debug: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:48:22 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[10-Jan-2026 18:48:23 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 
+[10-Jan-2026 18:48:23 Europe/Berlin] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[10-Jan-2026 18:48:23 Europe/Berlin] PHPMailer Debug: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:48:23 Europe/Berlin] Email sending error: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:48:51 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 18:48:51 Europe/Berlin] Raw POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriyavenkatesan.v@gmail.com
+    [mobile] => 8072283302
+    [special_note] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+)
+
+[10-Jan-2026 18:48:51 Europe/Berlin] Raw INPUT data: first_name=Devipriya&last_name=Admin&email=devipriyavenkatesan.v%40gmail.com&mobile=8072283302&special_note=Lorem+ipsum+is+a+dummy+or+placeholder+text+commonly+used+in+graphic+design%2C+publishing%2C+and+web+development.
+[10-Jan-2026 18:48:51 Europe/Berlin] Extracted Values:
+[10-Jan-2026 18:48:51 Europe/Berlin] Name: Devipriya
+[10-Jan-2026 18:48:51 Europe/Berlin] Email: devipriyavenkatesan.v@gmail.com
+[10-Jan-2026 18:48:51 Europe/Berlin] Phone: 8072283302
+[10-Jan-2026 18:48:51 Europe/Berlin] Company: 
+[10-Jan-2026 18:48:51 Europe/Berlin] Subject: Contact Form Inquiry from Devipriya
+[10-Jan-2026 18:48:51 Europe/Berlin] Message: Phone: 8072283302...
+[10-Jan-2026 18:48:52 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 smtp.mailtrap.io ESMTP ready
+
+[10-Jan-2026 18:48:52 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:48:52 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 STARTTLS
+
+[10-Jan-2026 18:48:52 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[10-Jan-2026 18:48:53 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Start TLS
+
+[10-Jan-2026 18:48:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:48:55 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 AUTH PLAIN LOGIN CRAM-MD5
+
+[10-Jan-2026 18:48:55 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: AUTH CRAM-MD5
+
+[10-Jan-2026 18:48:56 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 PDQ2OTc1OTYxOS4xNzY4MDY3MzM1QHNtdHAubWFpbHRyYXAuaW8+
+
+[10-Jan-2026 18:48:56 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 18:48:56 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 535 5.7.0 Invalid credentials
+
+[10-Jan-2026 18:48:56 Europe/Berlin] PHPMailer Debug: SMTP ERROR: Username command failed: 535 5.7.0 Invalid credentials
+
+[10-Jan-2026 18:48:56 Europe/Berlin] PHPMailer Debug: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:48:56 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[10-Jan-2026 18:48:57 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 
+[10-Jan-2026 18:48:57 Europe/Berlin] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[10-Jan-2026 18:48:57 Europe/Berlin] PHPMailer Debug: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:48:57 Europe/Berlin] Email sending error: SMTP Error: Could not authenticate.
+[10-Jan-2026 18:51:29 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 18:51:29 Europe/Berlin] Raw POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriyavenkatesan.v@gmail.com
+    [mobile] => 8072283302
+    [special_note] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+)
+
+[10-Jan-2026 18:51:29 Europe/Berlin] Raw INPUT data: first_name=Devipriya&last_name=Admin&email=devipriyavenkatesan.v%40gmail.com&mobile=8072283302&special_note=Lorem+ipsum+is+a+dummy+or+placeholder+text+commonly+used+in+graphic+design%2C+publishing%2C+and+web+development.
+[10-Jan-2026 18:51:29 Europe/Berlin] Extracted Values:
+[10-Jan-2026 18:51:29 Europe/Berlin] Name: Devipriya
+[10-Jan-2026 18:51:29 Europe/Berlin] Email: devipriyavenkatesan.v@gmail.com
+[10-Jan-2026 18:51:29 Europe/Berlin] Phone: 8072283302
+[10-Jan-2026 18:51:29 Europe/Berlin] Company: 
+[10-Jan-2026 18:51:29 Europe/Berlin] Subject: Contact Form Inquiry from Devipriya
+[10-Jan-2026 18:51:29 Europe/Berlin] Message: Phone: 8072283302...
+[10-Jan-2026 18:51:31 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-34f6ae3f033sm5076793a91.0 - gsmtp
+
+[10-Jan-2026 18:51:31 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:51:31 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 18:51:31 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[10-Jan-2026 18:51:32 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[10-Jan-2026 18:51:32 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:51:33 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 18:51:33 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[10-Jan-2026 18:51:33 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[10-Jan-2026 18:51:33 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 18:51:33 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[10-Jan-2026 18:51:33 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 18:51:34 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[10-Jan-2026 18:51:34 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 18:51:34 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-34f6ae3f033sm5076793a91.0 - gsmtp
+
+[10-Jan-2026 18:51:34 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<jctcteam@gmail.com>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-34f6ae3f033sm5076793a91.0 - gsmtp
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-34f6ae3f033sm5076793a91.0 - gsmtp
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: Sat, 10 Jan 2026 18:51:29 +0100
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: To: JACY Team <jctcteam@gmail.com>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: From: JACY Trading & Consulting Contact Form <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Reply-To: Devipriya <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Subject: New Contact Request: Contact Form Inquiry from Devipriya
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <z7WlpMc2uIac0yyaelOYR8I0dluB9rUaDOt9ew1oPI@localhost>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:  boundary="b1=_z7WlpMc2uIac0yyaelOYR8I0dluB9rUaDOt9ew1oPI"
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_z7WlpMc2uIac0yyaelOYR8I0dluB9rUaDOt9ew1oPI
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: New Contact Request
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: January 10, 2026, 6:51 pm
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: From: Devipriya
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Email: devipriyavenkatesan.v@gmail.com
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Phone: 8072283302
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Subject: Contact Form Inquiry from Devipriya
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Message:
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Phone: 8072283302
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Please respond to this inquiry within 24 hours.
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_z7WlpMc2uIac0yyaelOYR8I0dluB9rUaDOt9ew1oPI
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <!DOCTYPE html>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <html lang="en">
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <head>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <style>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .header { background-color: #51cc82; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .content { padding: 20px; background-color: #f9f9f9; border-left: 1px solid #ddd; border-right: 1px solid #ddd; }
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .footer { padding: 15px; text-align: center; font-size: 12px; color: #777; background-color: #f1f1f1; border-radius: 0 0 5px 5px; }
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             th { background-color: #f2f2f2; text-align: left; padding: 10px; border: 1px solid #ddd; }
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             td { padding: 10px; border: 1px solid #ddd; }
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .message-box { background-color: #fff8e1; padding: 15px; border-radius: 5px; margin-top: 15px; }
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .highlight { background-color: #ffffff; }
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </style>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </head>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <body>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="header">
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <h2>JACY Trading & Consulting</h2>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>New Contact Request</p>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="content">
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Dear JACY Team,</p>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>You have received a new contact request with the following details:</p>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <table>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <tr>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th style="width: 30%;">Field</th>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th>Details</th>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 </tr>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <tr class="">
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Date</strong></td>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>January 10, 2026, 6:51 pm</td>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr class="highlight">
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>From</strong></td>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>Devipriya</td>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr class="">
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Email</strong></td>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>devipriyavenkatesan.v@gmail.com</td>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr class="highlight">
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Phone</strong></td>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>8072283302</td>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr class="">
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Subject</strong></td>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>Contact Form Inquiry from Devipriya</td>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </table>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <div class="message-box">
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <h4>Message:</h4>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <p>Phone: 8072283302</p>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p style="margin-top: 20px;">Please respond to this inquiry within 24 hours.</p>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="footer">
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>&copy; 2026 JACY Trading & Consulting LLP. All rights reserved.</p>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Gudalur, The Nilgiris, TamilNadu - 643212</p>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </body>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </html>
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_z7WlpMc2uIac0yyaelOYR8I0dluB9rUaDOt9ew1oPI--
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:51:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: .
+
+[10-Jan-2026 18:51:36 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 OK  1768067495 98e67ed59e1d1-34f6ae3f033sm5076793a91.0 - gsmtp
+
+[10-Jan-2026 18:51:36 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[10-Jan-2026 18:51:36 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-34f6ae3f033sm5076793a91.0 - gsmtp
+
+[10-Jan-2026 18:51:37 Europe/Berlin] Email sent successfully to: jctcteam@gmail.com
+[10-Jan-2026 18:57:37 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 18:57:37 Europe/Berlin] Raw POST data: Array
+(
+    [fname] => Devipriya V
+    [email] => devipriyavenkatesan.v@gmail.com
+    [subject] => Demo
+    [message] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+    [g-recaptcha-response] => HFZjNsdUpINUgwTSRZSBlISVhzNVAUZm8vNz5sCUlsIzE1JHgGNgcQHkpPamlMJXcXLUxdAkAfTwZWO3cZbVUzVHFrEAZOPSMyZiptXXQpeQpIRysoD2dcTDJPYBNOU1xFXHNhBUsdLnVIdjEHEl90IzVQUjRrZCNRcg0lJyxuIxxrYCdjAkAfAk8CN1AUZjBtbWp5DT1mJzE0IGQRR3cFHEgROjdjbjBJZFssZFcfFRFNJSZLTwReYSE7OwNVe3BsK3ddDGMpXjF1GykeRSNWHSVXTUBrVBNqEWRpZBYbRgYlfSYHGS4oEA
+)
+
+[10-Jan-2026 18:57:37 Europe/Berlin] Extracted Values:
+[10-Jan-2026 18:57:37 Europe/Berlin] Name: Devipriya V
+[10-Jan-2026 18:57:37 Europe/Berlin] Email: devipriyavenkatesan.v@gmail.com
+[10-Jan-2026 18:57:37 Europe/Berlin] Phone: 
+[10-Jan-2026 18:57:37 Europe/Berlin] Message: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web deve
+[10-Jan-2026 18:57:38 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-819baa19242sm13424766b3a.7 - gsmtp
+
+[10-Jan-2026 18:57:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:57:38 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 18:57:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[10-Jan-2026 18:57:39 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[10-Jan-2026 18:57:39 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:57:40 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 18:57:40 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[10-Jan-2026 18:57:40 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[10-Jan-2026 18:57:40 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 18:57:40 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[10-Jan-2026 18:57:40 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-819baa19242sm13424766b3a.7 - gsmtp
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<priyavekatesan41@gmail.com>
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-819baa19242sm13424766b3a.7 - gsmtp
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-819baa19242sm13424766b3a.7 - gsmtp
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: Sat, 10 Jan 2026 18:57:37 +0100
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: To: JACY Team <priyavekatesan41@gmail.com>
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: From: JACY Trading & Consulting <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Reply-To: Devipriya V <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Subject: New Contact Request from Devipriya V
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <Zc1cyC5pcirU55NMUKmcksrM6YK4gTVRq8pExA0@localhost>
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:  boundary="b1=_Zc1cyC5pcirU55NMUKmcksrM6YK4gTVRq8pExA0"
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_Zc1cyC5pcirU55NMUKmcksrM6YK4gTVRq8pExA0
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: New Contact Request
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: January 10, 2026, 6:57 pm
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: From: Devipriya V
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Email: devipriyavenkatesan.v@gmail.com
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Message:
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Please respond to this inquiry within 24 hours.
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: ---
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: JACY Trading & Consulting LLP
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Gudalur, The Nilgiris, TamilNadu - 643212
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_Zc1cyC5pcirU55NMUKmcksrM6YK4gTVRq8pExA0
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <!DOCTYPE html>
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <html lang="en">
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <head>
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <style>
+
+[10-Jan-2026 18:57:41 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .header { background-color: #51cc82; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .content { padding: 20px; background-color: #f9f9f9; border-left: 1px solid #ddd; border-right: 1px solid #ddd; }
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .footer { padding: 15px; text-align: center; font-size: 12px; color: #777; background-color: #f1f1f1; border-radius: 0 0 5px 5px; }
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             th { background-color: #f2f2f2; text-align: left; padding: 10px; border: 1px solid #ddd; }
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             td { padding: 10px; border: 1px solid #ddd; }
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .message-box { background-color: #fff8e1; padding: 15px; border-radius: 5px; margin-top: 15px; }
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .highlight { background-color: #ffffff; }
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </style>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </head>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <body>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="header">
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <h2>JACY Trading & Consulting</h2>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>New Contact Request</p>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="content">
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Dear JACY Team,</p>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>You have received a new contact request with the following details:</p>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <table>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <tr>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th style="width: 30%;">Field</th>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th>Details</th>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 </tr>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <tr class="">
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Date</strong></td>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>January 10, 2026, 6:57 pm</td>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr class="highlight">
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>From</strong></td>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>Devipriya V</td>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr class="">
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Email</strong></td>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>devipriyavenkatesan.v@gmail.com</td>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </table>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <div class="message-box">
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <h4>Message:</h4>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.</p>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p style="margin-top: 20px;">Please respond to this inquiry within 24 hours.</p>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="footer">
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>&copy; 2026 JACY Trading & Consulting LLP. All rights reserved.</p>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Gudalur, The Nilgiris, TamilNadu - 643212</p>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </body>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </html>
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_Zc1cyC5pcirU55NMUKmcksrM6YK4gTVRq8pExA0--
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: .
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 OK  1768067862 d2e1a72fcca58-819baa19242sm13424766b3a.7 - gsmtp
+
+[10-Jan-2026 18:57:42 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[10-Jan-2026 18:57:43 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-819baa19242sm13424766b3a.7 - gsmtp
+
+[10-Jan-2026 18:57:43 Europe/Berlin] Email sent successfully to: priyavekatesan41@gmail.com
+[10-Jan-2026 18:59:08 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 18:59:08 Europe/Berlin] Raw POST data: Array
+(
+    [fname] => Devipriya V
+    [email] => devipriyavenkatesan.v@gmail.com
+    [subject] => Demo
+    [message] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+    [g-recaptcha-response] => HFNGR1Jx1RZx8pH3NAGk5RGw9qZwcNNDg2ZWl1Wx50dm4veyIfZFAJTB1WOD5VdyAOfxtEUBcGHVFPaSAAPwIqBiZyQlFXb3QrNH10DyMwK11RFXwxXTBFHmVWMkRXAQtcDiR4VxwEfCJRJGYeQAhtcWJJAGNyNnRIIFo8dXt3cUtyMnB6UBcGUBgbZQcNNGd0Pz1gX2p_dWYtcjMIFSAcTh8IaGB6PGdQNgw1NgAGR0ZUd3FSHVNHM3YiaVRMKSd1eSBEXjQwDGZsSX4HF3RPT3JOHxdyBkRzQzNwNkECFFE8L3EeS3kxQg
+)
+
+[10-Jan-2026 18:59:08 Europe/Berlin] Extracted Values:
+[10-Jan-2026 18:59:08 Europe/Berlin] Name: Devipriya V
+[10-Jan-2026 18:59:08 Europe/Berlin] Email: devipriyavenkatesan.v@gmail.com
+[10-Jan-2026 18:59:08 Europe/Berlin] Phone: 
+[10-Jan-2026 18:59:08 Europe/Berlin] Message: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web deve
+[10-Jan-2026 18:59:09 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-81dcc5c3793sm5439600b3a.8 - gsmtp
+
+[10-Jan-2026 18:59:09 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:59:09 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 18:59:09 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[10-Jan-2026 18:59:09 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[10-Jan-2026 18:59:10 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 18:59:10 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 18:59:10 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[10-Jan-2026 18:59:11 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[10-Jan-2026 18:59:11 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 18:59:11 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[10-Jan-2026 18:59:11 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 18:59:12 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[10-Jan-2026 18:59:12 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 18:59:12 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-81dcc5c3793sm5439600b3a.8 - gsmtp
+
+[10-Jan-2026 18:59:12 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<priyavenkatesan41@gmail.com>
+
+[10-Jan-2026 18:59:12 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-81dcc5c3793sm5439600b3a.8 - gsmtp
+
+[10-Jan-2026 18:59:12 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-81dcc5c3793sm5439600b3a.8 - gsmtp
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: Sat, 10 Jan 2026 18:59:08 +0100
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: To: JACY Team <priyavenkatesan41@gmail.com>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: From: JACY Trading & Consulting <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Reply-To: Devipriya V <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Subject: New Contact Request from Devipriya V
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <Vu6Sw5W3qsaI97WkuspxohhCrrciHicZQ5EB13nPSo@localhost>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:  boundary="b1=_Vu6Sw5W3qsaI97WkuspxohhCrrciHicZQ5EB13nPSo"
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_Vu6Sw5W3qsaI97WkuspxohhCrrciHicZQ5EB13nPSo
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: New Contact Request
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: January 10, 2026, 6:59 pm
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: From: Devipriya V
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Email: devipriyavenkatesan.v@gmail.com
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Message:
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Please respond to this inquiry within 24 hours.
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: ---
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: JACY Trading & Consulting LLP
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Gudalur, The Nilgiris, TamilNadu - 643212
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_Vu6Sw5W3qsaI97WkuspxohhCrrciHicZQ5EB13nPSo
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <!DOCTYPE html>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <html lang="en">
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <head>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <style>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .header { background-color: #51cc82; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .content { padding: 20px; background-color: #f9f9f9; border-left: 1px solid #ddd; border-right: 1px solid #ddd; }
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .footer { padding: 15px; text-align: center; font-size: 12px; color: #777; background-color: #f1f1f1; border-radius: 0 0 5px 5px; }
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             th { background-color: #f2f2f2; text-align: left; padding: 10px; border: 1px solid #ddd; }
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             td { padding: 10px; border: 1px solid #ddd; }
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .message-box { background-color: #fff8e1; padding: 15px; border-radius: 5px; margin-top: 15px; }
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .highlight { background-color: #ffffff; }
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </style>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </head>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <body>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="header">
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <h2>JACY Trading & Consulting</h2>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>New Contact Request</p>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="content">
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Dear JACY Team,</p>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>You have received a new contact request with the following details:</p>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <table>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <tr>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th style="width: 30%;">Field</th>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th>Details</th>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 </tr>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <tr class="">
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Date</strong></td>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>January 10, 2026, 6:59 pm</td>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr class="highlight">
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>From</strong></td>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>Devipriya V</td>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr class="">
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Email</strong></td>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>devipriyavenkatesan.v@gmail.com</td>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </table>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <div class="message-box">
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <h4>Message:</h4>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.</p>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p style="margin-top: 20px;">Please respond to this inquiry within 24 hours.</p>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="footer">
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>&copy; 2026 JACY Trading & Consulting LLP. All rights reserved.</p>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Gudalur, The Nilgiris, TamilNadu - 643212</p>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </body>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </html>
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_Vu6Sw5W3qsaI97WkuspxohhCrrciHicZQ5EB13nPSo--
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: .
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 OK  1768067953 d2e1a72fcca58-81dcc5c3793sm5439600b3a.8 - gsmtp
+
+[10-Jan-2026 18:59:13 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[10-Jan-2026 18:59:14 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-81dcc5c3793sm5439600b3a.8 - gsmtp
+
+[10-Jan-2026 18:59:14 Europe/Berlin] Email sent successfully to: priyavenkatesan41@gmail.com
+[10-Jan-2026 19:03:09 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 19:03:09 Europe/Berlin] Raw POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriyavenkatesan.v@gmail.com
+    [mobile] => 8072283302
+    [special_note] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+)
+
+[10-Jan-2026 19:03:09 Europe/Berlin] Extracted Values:
+[10-Jan-2026 19:03:09 Europe/Berlin] Name: 
+[10-Jan-2026 19:03:09 Europe/Berlin] Email: devipriyavenkatesan.v@gmail.com
+[10-Jan-2026 19:03:09 Europe/Berlin] Phone: 
+[10-Jan-2026 19:03:09 Europe/Berlin] Message: 
+[10-Jan-2026 19:03:09 Europe/Berlin] Validation Errors: Name is required and should be at least 2 characters long., Message is required and should be at least 10 characters long.
+[10-Jan-2026 19:03:34 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 19:03:34 Europe/Berlin] POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriyavenkatesan.v@gmail.com
+    [mobile] => 8072283302
+    [special_note] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+)
+
+[10-Jan-2026 19:03:34 Europe/Berlin] Extracted Values:
+[10-Jan-2026 19:03:34 Europe/Berlin] Name: Devipriya Admin
+[10-Jan-2026 19:03:34 Europe/Berlin] Email: devipriyavenkatesan.v@gmail.com
+[10-Jan-2026 19:03:34 Europe/Berlin] Mobile: 8072283302
+[10-Jan-2026 19:03:34 Europe/Berlin] Special Note: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web deve
+[10-Jan-2026 19:03:34 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-819c530133csm13303484b3a.31 - gsmtp
+
+[10-Jan-2026 19:03:34 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 19:03:35 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 19:03:35 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[10-Jan-2026 19:03:35 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[10-Jan-2026 19:03:36 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 19:03:36 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 19:03:36 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[10-Jan-2026 19:03:36 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[10-Jan-2026 19:03:36 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 19:03:37 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[10-Jan-2026 19:03:37 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 19:03:37 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[10-Jan-2026 19:03:37 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-819c530133csm13303484b3a.31 - gsmtp
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<priyavenkatesan41@gmail.com>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-819c530133csm13303484b3a.31 - gsmtp
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-819c530133csm13303484b3a.31 - gsmtp
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: Sat, 10 Jan 2026 19:03:34 +0100
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: To: JACY Team <priyavenkatesan41@gmail.com>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: From: JACY Trading & Consulting <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Reply-To: Devipriya Admin <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Subject: New Free Quote Request from Devipriya Admin
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <u1FKdiucrGbMMfCEIS2Sj1sJ7JpRJF4CCPlkkWwc0g@localhost>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:  boundary="b1=_u1FKdiucrGbMMfCEIS2Sj1sJ7JpRJF4CCPlkkWwc0g"
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_u1FKdiucrGbMMfCEIS2Sj1sJ7JpRJF4CCPlkkWwc0g
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: New Free Quote Request
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: January 10, 2026, 7:03 pm
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Name: Devipriya Admin
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Email: devipriyavenkatesan.v@gmail.com
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Mobile: 8072283302
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Special Note / Requirements:
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: ---
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Please respond to this quote request within 24 hours.
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: JACY Trading & Consulting LLP
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Gudalur, The Nilgiris, TamilNadu - 643212
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_u1FKdiucrGbMMfCEIS2Sj1sJ7JpRJF4CCPlkkWwc0g
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <!DOCTYPE html>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <html lang="en">
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <head>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <style>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             body { 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 font-family: Arial, sans-serif; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 line-height: 1.6; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: #333; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 max-width: 600px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin: 0 auto; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .header { 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #51cc82; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: white; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: center; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 5px 5px 0 0; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .content { 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f9f9f9; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-left: 1px solid #ddd; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-right: 1px solid #ddd; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .footer { 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 15px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: center; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 font-size: 12px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: #777; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f1f1f1; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 0 0 5px 5px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             table { 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 width: 100%; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-collapse: collapse; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin: 15px 0; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             th { 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f2f2f2; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: left; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 10px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border: 1px solid #ddd; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             td { 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 10px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border: 1px solid #ddd; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .message-box { 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #fff8e1; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 15px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 5px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin-top: 15px; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .highlight { 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #ffffff; 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </style>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </head>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <body>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="header">
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <h2>JACY Trading & Consulting</h2>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>New Free Quote Request</p>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="content">
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Dear JACY Team,</p>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>You have received a new free quote request with the following details:</p>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <table>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <tr>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th style="width: 30%;">Field</th>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th>Details</th>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 </tr>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Date</strong></td>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>January 10, 2026, 7:03 pm</td>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr class="highlight">
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Name</strong></td>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>Devipriya Admin</td>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Email</strong></td>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>devipriyavenkatesan.v@gmail.com</td>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr class="highlight">
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Mobile</strong></td>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>8072283302</td>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </table>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <div class="message-box">
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <h4>Special Note / Requirements:</h4>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.</p>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p style="margin-top: 20px; color: #d32f2f;">
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <strong>⏰ Action Required:</strong> Please respond to this quote request within 24 hours.
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </p>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="footer">
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>&copy; 2026 JACY Trading & Consulting LLP. All rights reserved.</p>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Gudalur, The Nilgiris, TamilNadu - 643212</p>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </body>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </html>
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_u1FKdiucrGbMMfCEIS2Sj1sJ7JpRJF4CCPlkkWwc0g--
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:03:38 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: .
+
+[10-Jan-2026 19:03:39 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 OK  1768068219 d2e1a72fcca58-819c530133csm13303484b3a.31 - gsmtp
+
+[10-Jan-2026 19:03:39 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[10-Jan-2026 19:03:40 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-819c530133csm13303484b3a.31 - gsmtp
+
+[10-Jan-2026 19:03:40 Europe/Berlin] Email sent successfully to: priyavenkatesan41@gmail.com
+[10-Jan-2026 19:10:15 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 19:10:15 Europe/Berlin] POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriyavenkatesan.v@gmail.com
+    [mobile] => 8072283302
+    [special_note] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+)
+
+[10-Jan-2026 19:10:15 Europe/Berlin] Extracted Values:
+[10-Jan-2026 19:10:15 Europe/Berlin] Name: Devipriya Admin
+[10-Jan-2026 19:10:15 Europe/Berlin] Email: devipriyavenkatesan.v@gmail.com
+[10-Jan-2026 19:10:15 Europe/Berlin] Mobile: 8072283302
+[10-Jan-2026 19:10:15 Europe/Berlin] Special Note: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web deve
+[10-Jan-2026 19:10:15 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-2a3e3cc88cdsm132967635ad.73 - gsmtp
+
+[10-Jan-2026 19:10:15 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 19:10:16 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 19:10:16 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[10-Jan-2026 19:10:16 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[10-Jan-2026 19:10:17 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 19:10:17 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 19:10:17 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[10-Jan-2026 19:10:18 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[10-Jan-2026 19:10:18 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 19:10:18 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[10-Jan-2026 19:10:18 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 19:10:18 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[10-Jan-2026 19:10:18 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-2a3e3cc88cdsm132967635ad.73 - gsmtp
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<priyavenkatesan41@gmail.com>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-2a3e3cc88cdsm132967635ad.73 - gsmtp
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-2a3e3cc88cdsm132967635ad.73 - gsmtp
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: Sat, 10 Jan 2026 19:10:15 +0100
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: To: JACY Team <priyavenkatesan41@gmail.com>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: From: JACY Trading & Consulting <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Reply-To: Devipriya Admin <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Subject: New Quote Request from Devipriya Admin
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <vddyyO1KjPwcxZRDn76uwlCu9UCreZuY52hdzlaCMY@localhost>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:  boundary="b1=_vddyyO1KjPwcxZRDn76uwlCu9UCreZuY52hdzlaCMY"
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_vddyyO1KjPwcxZRDn76uwlCu9UCreZuY52hdzlaCMY
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: New Free Quote Request
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: January 10, 2026, 7:10 pm
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Name: Devipriya Admin
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Email: devipriyavenkatesan.v@gmail.com
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Mobile: 8072283302
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Special Note / Requirements:
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: ---
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Please respond to this quote request within 24 hours.
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: JACY Trading & Consulting LLP
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Gudalur, The Nilgiris, TamilNadu - 643212
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_vddyyO1KjPwcxZRDn76uwlCu9UCreZuY52hdzlaCMY
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <!DOCTYPE html>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <html lang="en">
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <head>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <style>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             body { 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 font-family: Arial, sans-serif; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 line-height: 1.6; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: #333; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 max-width: 600px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin: 0 auto; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .header { 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #51cc82; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: white; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: center; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 5px 5px 0 0; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .content { 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f9f9f9; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-left: 1px solid #ddd; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-right: 1px solid #ddd; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .footer { 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 15px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: center; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 font-size: 12px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: #777; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f1f1f1; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 0 0 5px 5px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             table { 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 width: 100%; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-collapse: collapse; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin: 15px 0; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             th { 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f2f2f2; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: left; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 10px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border: 1px solid #ddd; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             td { 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 10px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border: 1px solid #ddd; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .message-box { 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #fff8e1; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 15px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 5px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin-top: 15px; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .highlight { 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #ffffff; 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </style>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </head>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <body>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="header">
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <h2>JACY Trading & Consulting</h2>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>New Free Quote Request</p>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="content">
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Dear JACY Team,</p>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>You have received a new free quote request with the following details:</p>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <table>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <tr>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th style="width: 30%;">Field</th>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th>Details</th>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 </tr>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Date</strong></td>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>January 10, 2026, 7:10 pm</td>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr class="highlight">
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Name</strong></td>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>Devipriya Admin</td>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Email</strong></td>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>devipriyavenkatesan.v@gmail.com</td>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr class="highlight">
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Mobile</strong></td>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>8072283302</td>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </table>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <div class="message-box">
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <h4>Special Note / Requirements:</h4>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.</p>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p style="margin-top: 20px; color: #d32f2f;">
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <strong>⏰ Action Required:</strong> Please respond to this quote request within 24 hours.
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </p>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="footer">
+
+[10-Jan-2026 19:10:19 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>&copy; 2026 JACY Trading & Consulting LLP. All rights reserved.</p>
+
+[10-Jan-2026 19:10:20 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Gudalur, The Nilgiris, TamilNadu - 643212</p>
+
+[10-Jan-2026 19:10:20 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:10:20 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </body>
+
+[10-Jan-2026 19:10:20 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </html>
+
+[10-Jan-2026 19:10:20 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:20 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:20 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_vddyyO1KjPwcxZRDn76uwlCu9UCreZuY52hdzlaCMY--
+
+[10-Jan-2026 19:10:20 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:20 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: .
+
+[10-Jan-2026 19:10:20 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 OK  1768068620 d9443c01a7336-2a3e3cc88cdsm132967635ad.73 - gsmtp
+
+[10-Jan-2026 19:10:20 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[10-Jan-2026 19:10:21 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-2a3e3cc88cdsm132967635ad.73 - gsmtp
+
+[10-Jan-2026 19:10:21 Europe/Berlin] Email sent successfully to: priyavenkatesan41@gmail.com
+[10-Jan-2026 19:10:50 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 19:10:50 Europe/Berlin] POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriyavenkatesan.v@gmail.com
+    [mobile] => 8072283302
+    [special_note] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+)
+
+[10-Jan-2026 19:10:50 Europe/Berlin] Extracted Values:
+[10-Jan-2026 19:10:50 Europe/Berlin] Name: Devipriya Admin
+[10-Jan-2026 19:10:50 Europe/Berlin] Email: devipriyavenkatesan.v@gmail.com
+[10-Jan-2026 19:10:50 Europe/Berlin] Mobile: 8072283302
+[10-Jan-2026 19:10:50 Europe/Berlin] Special Note: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web deve
+[10-Jan-2026 19:10:51 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-34f5fb64b3esm13468708a91.10 - gsmtp
+
+[10-Jan-2026 19:10:51 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 19:10:51 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 19:10:51 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[10-Jan-2026 19:10:51 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[10-Jan-2026 19:10:52 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 19:10:52 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 19:10:52 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[10-Jan-2026 19:10:53 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[10-Jan-2026 19:10:53 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 19:10:53 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[10-Jan-2026 19:10:53 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 19:10:53 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[10-Jan-2026 19:10:53 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-34f5fb64b3esm13468708a91.10 - gsmtp
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<priyavenkatesan41@gmail.com>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-34f5fb64b3esm13468708a91.10 - gsmtp
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-34f5fb64b3esm13468708a91.10 - gsmtp
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: Sat, 10 Jan 2026 19:10:50 +0100
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: To: JACY Team <priyavenkatesan41@gmail.com>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: From: JACY Trading & Consulting <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Reply-To: Devipriya Admin <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Subject: New Quote Request from Devipriya Admin
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <iJ9IOoIyHjMziQVup3W4OXOg7EXi87pr2DLFmZqnxQ@localhost>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:  boundary="b1=_iJ9IOoIyHjMziQVup3W4OXOg7EXi87pr2DLFmZqnxQ"
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_iJ9IOoIyHjMziQVup3W4OXOg7EXi87pr2DLFmZqnxQ
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: New Free Quote Request
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: January 10, 2026, 7:10 pm
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Name: Devipriya Admin
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Email: devipriyavenkatesan.v@gmail.com
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Mobile: 8072283302
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Special Note / Requirements:
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: ---
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Please respond to this quote request within 24 hours.
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: JACY Trading & Consulting LLP
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Gudalur, The Nilgiris, TamilNadu - 643212
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_iJ9IOoIyHjMziQVup3W4OXOg7EXi87pr2DLFmZqnxQ
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <!DOCTYPE html>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <html lang="en">
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <head>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <style>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             body { 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 font-family: Arial, sans-serif; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 line-height: 1.6; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: #333; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 max-width: 600px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin: 0 auto; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .header { 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #51cc82; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: white; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: center; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 5px 5px 0 0; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .content { 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f9f9f9; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-left: 1px solid #ddd; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-right: 1px solid #ddd; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .footer { 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 15px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: center; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 font-size: 12px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: #777; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f1f1f1; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 0 0 5px 5px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             table { 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 width: 100%; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-collapse: collapse; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin: 15px 0; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             th { 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f2f2f2; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: left; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 10px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border: 1px solid #ddd; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             td { 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 10px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border: 1px solid #ddd; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .message-box { 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #fff8e1; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 15px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 5px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin-top: 15px; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .highlight { 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #ffffff; 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </style>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </head>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <body>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="header">
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <h2>JACY Trading & Consulting</h2>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>New Free Quote Request</p>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="content">
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Dear JACY Team,</p>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>You have received a new free quote request with the following details:</p>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <table>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <tr>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th style="width: 30%;">Field</th>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th>Details</th>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 </tr>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Date</strong></td>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>January 10, 2026, 7:10 pm</td>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr class="highlight">
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Name</strong></td>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>Devipriya Admin</td>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Email</strong></td>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>devipriyavenkatesan.v@gmail.com</td>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr class="highlight">
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Mobile</strong></td>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>8072283302</td>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </table>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <div class="message-box">
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <h4>Special Note / Requirements:</h4>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.</p>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p style="margin-top: 20px; color: #d32f2f;">
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <strong>⏰ Action Required:</strong> Please respond to this quote request within 24 hours.
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </p>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="footer">
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>&copy; 2026 JACY Trading & Consulting LLP. All rights reserved.</p>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Gudalur, The Nilgiris, TamilNadu - 643212</p>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </body>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </html>
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_iJ9IOoIyHjMziQVup3W4OXOg7EXi87pr2DLFmZqnxQ--
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:10:54 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: .
+
+[10-Jan-2026 19:10:55 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 OK  1768068654 98e67ed59e1d1-34f5fb64b3esm13468708a91.10 - gsmtp
+
+[10-Jan-2026 19:10:55 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[10-Jan-2026 19:10:55 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-34f5fb64b3esm13468708a91.10 - gsmtp
+
+[10-Jan-2026 19:10:55 Europe/Berlin] Email sent successfully to: priyavenkatesan41@gmail.com
+[10-Jan-2026 19:16:24 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 19:16:24 Europe/Berlin] POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriya.v@mahadhi.com
+    [mobile] => 8072283302
+    [special_note] => Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+)
+
+[10-Jan-2026 19:16:24 Europe/Berlin] Extracted Values:
+[10-Jan-2026 19:16:24 Europe/Berlin] Name: Devipriya Admin
+[10-Jan-2026 19:16:24 Europe/Berlin] Email: devipriya.v@mahadhi.com
+[10-Jan-2026 19:16:24 Europe/Berlin] Mobile: 8072283302
+[10-Jan-2026 19:16:24 Europe/Berlin] Special Note: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web deve
+[10-Jan-2026 19:16:25 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-819bb4c85bfsm13390393b3a.30 - gsmtp
+
+[10-Jan-2026 19:16:25 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 19:16:25 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 19:16:25 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[10-Jan-2026 19:16:25 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[10-Jan-2026 19:16:26 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: EHLO localhost
+
+[10-Jan-2026 19:16:26 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:40f4:2045:b601:a563:9d2b:d3d1:2ec3]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[10-Jan-2026 19:16:26 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[10-Jan-2026 19:16:26 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[10-Jan-2026 19:16:26 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 19:16:27 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[10-Jan-2026 19:16:27 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Jan-2026 19:16:27 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[10-Jan-2026 19:16:27 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 19:16:27 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-819bb4c85bfsm13390393b3a.30 - gsmtp
+
+[10-Jan-2026 19:16:27 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<priyavenkatesan41@gmail.com>
+
+[10-Jan-2026 19:16:27 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-819bb4c85bfsm13390393b3a.30 - gsmtp
+
+[10-Jan-2026 19:16:27 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-819bb4c85bfsm13390393b3a.30 - gsmtp
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: Sat, 10 Jan 2026 19:16:24 +0100
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: To: JACY Team <priyavenkatesan41@gmail.com>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: From: JACY Trading & Consulting <devipriyavenkatesan.v@gmail.com>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Reply-To: Devipriya Admin <devipriya.v@mahadhi.com>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Subject: New Quote Request from Devipriya Admin
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <Vy9qcF6e5RosCiybHqCVtSbNGQV8o0wJ33k8d2yKco@localhost>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:  boundary="b1=_Vy9qcF6e5RosCiybHqCVtSbNGQV8o0wJ33k8d2yKco"
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_Vy9qcF6e5RosCiybHqCVtSbNGQV8o0wJ33k8d2yKco
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: New Free Quote Request
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Date: January 10, 2026, 7:16 pm
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Name: Devipriya Admin
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Email: devipriya.v@mahadhi.com
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Mobile: 8072283302
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Special Note / Requirements:
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: ---
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Please respond to this quote request within 24 hours.
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: JACY Trading & Consulting LLP
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Gudalur, The Nilgiris, TamilNadu - 643212
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_Vy9qcF6e5RosCiybHqCVtSbNGQV8o0wJ33k8d2yKco
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <!DOCTYPE html>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <html lang="en">
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <head>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <meta charset="UTF-8">
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <style>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             body { 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 font-family: Arial, sans-serif; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 line-height: 1.6; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: #333; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 max-width: 600px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin: 0 auto; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .header { 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #51cc82; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: white; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: center; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 5px 5px 0 0; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .content { 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 20px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f9f9f9; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-left: 1px solid #ddd; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-right: 1px solid #ddd; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .footer { 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 15px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: center; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 font-size: 12px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 color: #777; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f1f1f1; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 0 0 5px 5px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             table { 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 width: 100%; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-collapse: collapse; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin: 15px 0; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             th { 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #f2f2f2; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 text-align: left; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 10px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border: 1px solid #ddd; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             td { 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 10px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border: 1px solid #ddd; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .message-box { 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #fff8e1; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 padding: 15px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 border-radius: 5px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 margin-top: 15px; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             .highlight { 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 background-color: #ffffff; 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             }
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </style>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </head>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     <body>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="header">
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <h2>JACY Trading & Consulting</h2>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>New Free Quote Request</p>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="content">
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Dear JACY Team,</p>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>You have received a new free quote request with the following details:</p>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <table>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <tr>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th style="width: 30%;">Field</th>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                     <th>Details</th>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 </tr>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Date</strong></td>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>January 10, 2026, 7:16 pm</td>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr class="highlight">
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Name</strong></td>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>Devipriya Admin</td>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Email</strong></td>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>devipriya.v@mahadhi.com</td>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <tr class="highlight">
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td><strong>Mobile</strong></td>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <td>8072283302</td>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </tr>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </table>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <div class="message-box">
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <h4>Special Note / Requirements:</h4>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.</p>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p style="margin-top: 20px; color: #d32f2f;">
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:                 <strong>⏰ Action Required:</strong> Please respond to this quote request within 24 hours.
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             </p>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         <div class="footer">
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>&copy; 2026 JACY Trading & Consulting LLP. All rights reserved.</p>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:             <p>Gudalur, The Nilgiris, TamilNadu - 643212</p>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </body>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER:     </html>
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: --b1=_Vy9qcF6e5RosCiybHqCVtSbNGQV8o0wJ33k8d2yKco--
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: 
+
+[10-Jan-2026 19:16:28 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: .
+
+[10-Jan-2026 19:16:29 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 OK  1768068988 d2e1a72fcca58-819bb4c85bfsm13390393b3a.30 - gsmtp
+
+[10-Jan-2026 19:16:29 Europe/Berlin] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[10-Jan-2026 19:16:29 Europe/Berlin] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-819bb4c85bfsm13390393b3a.30 - gsmtp
+
+[10-Jan-2026 19:16:29 Europe/Berlin] Email sent successfully to: priyavenkatesan41@gmail.com
+[10-Jan-2026 19:18:42 Europe/Berlin] PHP Warning:  Undefined variable $email in C:\xampp\htdocs\solar\contact.php on line 30
+[10-Jan-2026 19:18:42 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: shell_exec(): Argument #1 ($command) cannot be empty in C:\xampp\htdocs\solar\contact.php:30
+Stack trace:
+#0 C:\xampp\htdocs\solar\contact.php(30): shell_exec('')
+#1 {main}
+  thrown in C:\xampp\htdocs\solar\contact.php on line 30
+[10-Jan-2026 19:18:46 Europe/Berlin] PHP Warning:  Undefined variable $email in C:\xampp\htdocs\solar\contact.php on line 30
+[10-Jan-2026 19:18:46 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: shell_exec(): Argument #1 ($command) cannot be empty in C:\xampp\htdocs\solar\contact.php:30
+Stack trace:
+#0 C:\xampp\htdocs\solar\contact.php(30): shell_exec('')
+#1 {main}
+  thrown in C:\xampp\htdocs\solar\contact.php on line 30
+[10-Jan-2026 19:18:54 Europe/Berlin] PHP Warning:  Undefined variable $email in C:\xampp\htdocs\solar\contact.php on line 30
+[10-Jan-2026 19:18:54 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: shell_exec(): Argument #1 ($command) cannot be empty in C:\xampp\htdocs\solar\contact.php:30
+Stack trace:
+#0 C:\xampp\htdocs\solar\contact.php(30): shell_exec('')
+#1 {main}
+  thrown in C:\xampp\htdocs\solar\contact.php on line 30
+[10-Jan-2026 19:19:12 Europe/Berlin] PHP Warning:  Undefined variable $email in C:\xampp\htdocs\solar\contact.php on line 30
+[10-Jan-2026 19:19:12 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: shell_exec(): Argument #1 ($command) cannot be empty in C:\xampp\htdocs\solar\contact.php:30
+Stack trace:
+#0 C:\xampp\htdocs\solar\contact.php(30): shell_exec('')
+#1 {main}
+  thrown in C:\xampp\htdocs\solar\contact.php on line 30
+[10-Jan-2026 19:19:48 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 19:19:48 Europe/Berlin] POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriya.v@mahadhi.com
+    [mobile] => 08072283302
+    [special_note] => zxczczc
+)
+
+[10-Jan-2026 19:19:48 Europe/Berlin] Extracted Values:
+[10-Jan-2026 19:19:48 Europe/Berlin] Name: Devipriya Admin
+[10-Jan-2026 19:19:48 Europe/Berlin] Email: devipriya.v@mahadhi.com
+[10-Jan-2026 19:19:48 Europe/Berlin] Mobile: 08072283302
+[10-Jan-2026 19:19:48 Europe/Berlin] Special Note: zxczczc
+[10-Jan-2026 19:19:48 Europe/Berlin] Validation Errors: Special note is required and should be at least 10 characters long.
+[10-Jan-2026 19:19:51 Europe/Berlin] ========== NEW FORM SUBMISSION ==========
+[10-Jan-2026 19:19:51 Europe/Berlin] POST data: Array
+(
+    [first_name] => Devipriya
+    [last_name] => Admin
+    [email] => devipriya.v@mahadhi.com
+    [mobile] => 08072283302
+    [special_note] => zxczczc
+)
+
+[10-Jan-2026 19:19:51 Europe/Berlin] Extracted Values:
+[10-Jan-2026 19:19:51 Europe/Berlin] Name: Devipriya Admin
+[10-Jan-2026 19:19:51 Europe/Berlin] Email: devipriya.v@mahadhi.com
+[10-Jan-2026 19:19:51 Europe/Berlin] Mobile: 08072283302
+[10-Jan-2026 19:19:51 Europe/Berlin] Special Note: zxczczc
+[10-Jan-2026 19:19:51 Europe/Berlin] Validation Errors: Special note is required and should be at least 10 characters long.

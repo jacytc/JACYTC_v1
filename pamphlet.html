@@ -1,0 +1,926 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pamphlet - JACY TRADING & CONSULTING</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+
+    <style>
+      /* Pamphlet page specific styles */
+      .pamphlet-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+        padding: 25px;
+        height: 100%;
+      }
+      .pamphlet-card h4 {
+        margin-bottom: 20px;
+      }
+      .pamphlet-frame-wrap {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        border-radius: 8px;
+        overflow: hidden;
+        border: 1px solid #eee;
+      }
+      .pamphlet-frame-wrap iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      .pamphlet-actions {
+        margin-top: 20px;
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .navbar-brand img {
+        height: 50px;
+        width: auto;
+        margin-right: 10px;
+      }
+
+      @media (max-width: 991.98px) {
+        .pamphlet-frame-wrap {
+          height: 480px;
+        }
+      }
+      @media (max-width: 768px) {
+        .navbar-brand img {
+          height: 35px;
+        }
+        .navbar-brand h2 {
+          font-size: 0.9rem !important;
+        }
+      }
+      @media (max-width: 575.98px) {
+        .pamphlet-frame-wrap {
+          height: 400px;
+        }
+        .navbar-brand img {
+          height: 28px;
+        }
+        .navbar-brand h2 {
+          font-size: 0.7rem !important;
+        }
+      }
+
+      /* ============================================
+         MODERN FOOTER STYLES (copied from reference)
+      ============================================ */
+      .footer {
+        background: linear-gradient(
+          135deg,
+          #0f1117 0%,
+          #1a1c22 50%,
+          #0f1117 100%
+        );
+        position: relative;
+        overflow: hidden;
+      }
+
+      .footer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, #32c36c, #259856, #32c36c);
+        background-size: 200% 100%;
+        animation: shimmer 3s ease-in-out infinite;
+      }
+
+      @keyframes shimmer {
+        0%,
+        100% {
+          background-position: 0% 0%;
+        }
+        50% {
+          background-position: 100% 0%;
+        }
+      }
+
+      .footer h5 {
+        color: #ffffff !important;
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+        position: relative;
+        padding-bottom: 12px;
+        letter-spacing: 0.5px;
+      }
+
+      .footer h5::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 35px;
+        height: 3px;
+        background: linear-gradient(90deg, #32c36c, #259856);
+        border-radius: 2px;
+        transition: width 0.3s ease;
+      }
+
+      .footer h5:hover::after {
+        width: 60px;
+      }
+
+      .footer .office-info {
+        color: #cbd5e0;
+        font-size: 0.92rem;
+        line-height: 1.8;
+        transition: all 0.3s ease;
+      }
+
+      .footer .office-info i {
+        color: #32c36c;
+        width: 24px;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-right: 5px;
+        transition: transform 0.3s ease;
+      }
+
+      .footer .office-info:hover i {
+        transform: scale(1.2) rotate(5deg);
+      }
+
+      .footer .office-info .location-link {
+        color: #cbd5e0;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        display: inline-block;
+      }
+
+      .footer .office-info .location-link:hover {
+        color: #32c36c;
+      }
+
+      .location-card {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        padding: 12px 15px;
+        margin-bottom: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        transition: all 0.3s ease;
+        backdrop-filter: blur(5px);
+      }
+
+      .location-card:hover {
+        background: rgba(50, 195, 108, 0.1);
+        border-color: rgba(50, 195, 108, 0.3);
+        transform: translateX(5px);
+      }
+
+      .location-card .loc-icon {
+        color: #32c36c;
+        font-size: 0.85rem;
+        width: 20px;
+      }
+
+      .location-card .loc-text {
+        color: #cbd5e0;
+        font-size: 0.85rem;
+      }
+
+      .location-card .loc-link {
+        color: #32c36c;
+        font-size: 0.75rem;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        transition: all 0.3s ease;
+      }
+
+      .location-card .loc-link:hover {
+        color: #259856;
+        gap: 8px;
+      }
+
+      .footer .quick-link {
+        color: #cbd5e0 !important;
+        text-decoration: none;
+        padding: 6px 0;
+        font-size: 0.92rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.3s ease;
+        border-bottom: 1px solid transparent;
+      }
+
+      .footer .quick-link i {
+        color: #32c36c;
+        font-size: 0.6rem;
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: all 0.3s ease;
+      }
+
+      .footer .quick-link:hover {
+        color: #32c36c !important;
+        padding-left: 10px;
+      }
+
+      .footer .quick-link:hover i {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      .social-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+      }
+
+      .social-link-modern {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        color: #cbd5e0 !important;
+        text-decoration: none;
+        font-size: 0.85rem;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+
+      .social-link-modern i {
+        width: 20px;
+        font-size: 0.9rem;
+        text-align: center;
+        transition: all 0.3s ease;
+      }
+
+      .social-link-modern:hover {
+        background: rgba(50, 195, 108, 0.15);
+        border-color: rgba(50, 195, 108, 0.3);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(50, 195, 108, 0.15);
+        color: #32c36c !important;
+      }
+
+      .social-link-modern:hover i {
+        transform: scale(1.2);
+      }
+
+      .social-link-modern:hover .fa-pinterest {
+        color: #e60023;
+      }
+      .social-link-modern:hover .fa-instagram {
+        color: #e4405f;
+      }
+      .social-link-modern:hover .fa-facebook-f {
+        color: #1877f2;
+      }
+      .social-link-modern:hover .fa-linkedin-in {
+        color: #0a66c2;
+      }
+      .social-link-modern:hover .fa-twitter {
+        color: #1da1f2;
+      }
+      .social-link-modern:hover .fa-youtube {
+        color: #ff0000;
+      }
+      .social-link-modern:hover .fa-whatsapp {
+        color: #25d366;
+      }
+
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3px;
+      }
+
+      .gallery-grid img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+        cursor: pointer;
+      }
+
+      .gallery-grid img:hover {
+        transform: scale(1.05);
+        border-color: #32c36c;
+        box-shadow: 0 4px 20px rgba(50, 195, 108, 0.2);
+      }
+
+      .copyright {
+        border-top: 1px solid rgba(255, 255, 255, 0.06);
+        padding: 25px 0;
+        margin-top: 20px;
+      }
+
+      .copyright .heart {
+        color: #32c36c;
+        display: inline-block;
+        animation: heartbeat 1.5s ease-in-out infinite;
+      }
+
+      @keyframes heartbeat {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+      }
+
+      .copyright p {
+        color: #888;
+        font-size: 0.9rem;
+        margin-bottom: 0;
+      }
+
+      .copyright a {
+        color: #32c36c;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        font-weight: 600;
+      }
+
+      .copyright a:hover {
+        color: #259856;
+        text-decoration: underline;
+      }
+
+      .copyright .social-mini {
+        display: inline-flex;
+        gap: 12px;
+        margin-left: 15px;
+      }
+
+      .copyright .social-mini a {
+        color: #666;
+        font-size: 0.85rem;
+        transition: all 0.3s ease;
+      }
+
+      .copyright .social-mini a:hover {
+        color: #32c36c;
+        transform: translateY(-2px);
+      }
+
+      @media (max-width: 991px) {
+        .footer .col-lg-3 {
+          margin-bottom: 30px;
+        }
+        .social-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .social-grid {
+          grid-template-columns: 1fr;
+        }
+        .footer .office-info {
+          font-size: 0.85rem;
+        }
+        .location-card .loc-text {
+          font-size: 0.8rem;
+        }
+        .gallery-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        .copyright .social-mini {
+          display: none;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .footer h5 {
+          font-size: 1rem;
+        }
+        .social-link-modern {
+          font-size: 0.8rem;
+          padding: 6px 10px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center me-4">
+            <small class="fa fa-map-marker-alt text-primary me-2"></small>
+            <small>Gudalur, The Nilgiris, Tamilnadu - 643212</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center">
+            <small class="far fa-clock text-primary me-2"></small>
+            <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center me-4">
+            <small class="fa fa-phone-alt text-primary me-2"></small>
+            <small>+91 741-888-0930</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center mx-n2">
+            <a
+              class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary"
+              href=""
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary"
+              href=""
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary"
+              href=""
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-square btn-link rounded-0" href=""
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+      <a
+        href="index.html"
+        class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5"
+      >
+        <img
+          src="img/logo-round.png"
+          alt="JACY Trading & Consulting Logo"
+          style="height: 50px; width: auto; margin-right: 10px"
+        />
+        <h2 class="m-0 text-primary">JACY TRADING & CONSULTING</h2>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <div class="nav-item dropdown">
+            <a href="about.html" class="nav-link">About Us</a>
+            <div class="dropdown-menu bg-light m-0">
+              <a href="feature.html" class="dropdown-item">Why JACY?</a>
+              <a href="team-members.html" class="dropdown-item">Team Members</a>
+              <a href="pamphlet.html" class="dropdown-item">Pamphlet</a>
+            </div>
+          </div>
+          <a href="service.html" class="nav-item nav-link">Services</a>
+          <a href="project.html" class="nav-item nav-link">Projects</a>
+          <a href="quote.html" class="nav-item nav-link">Free Quote</a>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-header py-5 mb-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <h1 class="display-3 text-white animated slideInDown">Pamphlet</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item text-white active" aria-current="page">
+              Pamphlet
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Pamphlet Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="text-center mx-auto mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 600px"
+        >
+          <h6 class="text-primary">Our Pamphlets</h6>
+          <h1 class="mb-4">Browse & Download Our Brochures</h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <!-- Left Pamphlet -->
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="pamphlet-card">
+              <h4>JACY Solar Brochure</h4>
+              <div class="pamphlet-frame-wrap">
+                <iframe
+                  src="img/Fi-JACY-SOLAR.pdf"
+                  title="JACY Solar Pamphlet"
+                ></iframe>
+              </div>
+              <div class="pamphlet-actions">
+                <a
+                  href="img/Fi-JACY-SOLAR.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-primary rounded-pill py-2 px-4"
+                  >View Full Screen</a
+                >
+                <a
+                  href="img/Fi-JACY-SOLAR.pdf"
+                  download
+                  class="btn btn-outline-primary rounded-pill py-2 px-4"
+                  >Download PDF</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Right Pamphlet -->
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="pamphlet-card">
+              <h4>JACY Company Brochure</h4>
+              <div class="pamphlet-frame-wrap">
+                <iframe
+                  src="img/jacy-final.pdf"
+                  title="JACY Company Pamphlet"
+                ></iframe>
+              </div>
+              <div class="pamphlet-actions">
+                <a
+                  href="img/jacy-final.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-primary rounded-pill py-2 px-4"
+                  >View Full Screen</a
+                >
+                <a
+                  href="img/jacy-final.pdf"
+                  download
+                  class="btn btn-outline-primary rounded-pill py-2 px-4"
+                  >Download PDF</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pamphlet End -->
+
+    <!-- ============================================
+    MODERN FOOTER START (updated from reference)
+    ============================================ -->
+    <div
+      class="container-fluid footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-4">
+          <!-- Column 1: Office & Locations -->
+          <div class="col-lg-4 col-md-6">
+            <h5 class="text-white mb-4">
+              <i class="fas fa-building me-2" style="color: #32c36c"></i>Office
+            </h5>
+
+            <div class="office-info mb-2">
+              <div>
+                <h6 class="text-white">Head Office</h6>
+                <i class="fas fa-map-marker-alt"></i>
+                <span
+                  >2/516 C Thiruvalluvar Nagar, Opposite to Ambal Hospital,
+                  Malumichampatty, Coimbatore, Tamil Nadu - 641 050</span
+                >
+              </div>
+              <div class="mt-2">
+                <h6 class="text-white">Branch Office</h6>
+                <i class="fas fa-map-marker-alt"></i>
+                <span
+                  >12/264 A4, Puthurvayal Road, Makkamoola, Marthomanagar Post,
+                  Gudalur, Nilgiris, Tamil Nadu - 643 211</span
+                >
+              </div>
+            </div>
+
+            <div class="office-info">
+              <i class="fas fa-phone-alt"></i>
+              <a
+                href="tel:+917418880930"
+                style="color: #cbd5e0; text-decoration: none"
+                >+91-741-888-0930</a
+              >
+            </div>
+
+            <div class="office-info mb-3">
+              <i class="fas fa-envelope"></i>
+              <a
+                href="mailto:enquiries@jacytc.com"
+                style="color: #cbd5e0; text-decoration: none"
+                >enquiries@jacytc.com</a
+              >
+            </div>
+          </div>
+
+          <!-- Column 2: Quick Links -->
+          <div class="col-lg-2 col-md-6">
+            <h5 class="text-white mb-4">
+              <i class="fas fa-link me-2" style="color: #32c36c"></i>Quick Links
+            </h5>
+            <a class="quick-link" href="about.html"
+              ><i class="fas fa-chevron-right"></i> About Us</a
+            >
+            <a class="quick-link" href="contact.html"
+              ><i class="fas fa-chevron-right"></i> Contact Us</a
+            >
+            <a class="quick-link" href="service.html"
+              ><i class="fas fa-chevron-right"></i> Our Services</a
+            >
+            <a class="quick-link" href="project.html"
+              ><i class="fas fa-chevron-right"></i> Projects</a
+            >
+            <a class="quick-link" href="quote.html"
+              ><i class="fas fa-chevron-right"></i> Free Quote</a
+            >
+            <a class="quick-link" href="team-members.html"
+              ><i class="fas fa-chevron-right"></i> Team Members</a
+            >
+          </div>
+
+          <!-- Column 3: Follow Us - Social Media Grid -->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">
+              <i class="fas fa-share-alt me-2" style="color: #32c36c"></i>Follow
+              Us
+            </h5>
+            <div class="social-grid">
+              <a
+                class="social-link-modern"
+                href="https://in.pinterest.com/jacytc/"
+                target="_blank"
+                title="Pinterest"
+              >
+                <i class="fab fa-pinterest"></i> Pinterest
+              </a>
+              <a
+                class="social-link-modern"
+                href="https://www.instagram.com/jacytc1/"
+                target="_blank"
+                title="Instagram"
+              >
+                <i class="fab fa-instagram"></i> Instagram
+              </a>
+              <a
+                class="social-link-modern"
+                href="https://www.facebook.com/jacytc/"
+                target="_blank"
+                title="Facebook"
+              >
+                <i class="fab fa-facebook-f"></i> Facebook
+              </a>
+              <a
+                class="social-link-modern"
+                href="https://www.linkedin.com/company/jacytc"
+                target="_blank"
+                title="LinkedIn"
+              >
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+              </a>
+              <a
+                class="social-link-modern"
+                href="https://x.com/jacytc1"
+                target="_blank"
+                title="Twitter"
+              >
+                <i class="fab fa-twitter"></i> Twitter
+              </a>
+              <a
+                class="social-link-modern"
+                href="https://www.youtube.com/@jacytrading"
+                target="_blank"
+                title="Company YouTube"
+              >
+                <i class="fab fa-youtube"></i> Company YT
+              </a>
+              <a
+                class="social-link-modern"
+                href="https://www.youtube.com/@jacyconsulting"
+                target="_blank"
+                title="Consulting YouTube"
+              >
+                <i class="fab fa-youtube"></i> Consulting YT
+              </a>
+              <a
+                class="social-link-modern"
+                href="https://whatsapp.com/channel/0029VaQIjTE4tRrwNWwQIq2q"
+                target="_blank"
+                title="WhatsApp Channel"
+              >
+                <i class="fab fa-whatsapp"></i> WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 4: Project Gallery -->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">
+              <i class="fas fa-images me-2" style="color: #32c36c"></i>Project
+              Gallery
+            </h5>
+            <div class="gallery-grid">
+              <img
+                src="img/gallery-1.jpg"
+                alt="Project 1"
+                onclick="window.location.href = 'project.html'"
+              />
+              <img
+                src="img/gallery-2.jpg"
+                alt="Project 2"
+                onclick="window.location.href = 'project.html'"
+              />
+              <img
+                src="img/gallery-3.jpg"
+                alt="Project 3"
+                onclick="window.location.href = 'project.html'"
+              />
+              <img
+                src="img/gallery-4.jpg"
+                alt="Project 4"
+                onclick="window.location.href = 'project.html'"
+              />
+              <img
+                src="img/gallery-5.jpg"
+                alt="Project 5"
+                onclick="window.location.href = 'project.html'"
+              />
+              <img
+                src="img/gallery-6.jpg"
+                alt="Project 6"
+                onclick="window.location.href = 'project.html'"
+              />
+            </div>
+            <div style="margin-top: 10px; text-align: center">
+              <a
+                href="project.html"
+                style="
+                  color: #32c36c;
+                  text-decoration: none;
+                  font-size: 0.85rem;
+                "
+              >
+                View All Projects <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Section -->
+      <div class="container">
+        <div class="copyright">
+          <div class="row align-items-center">
+            <div class="col-md-8 text-center text-md-start">
+              <p>
+                &copy; <a href="index.html">JACY Trading & Consulting LLP</a>,
+                All Rights Reserved.
+                <span class="social-mini">
+                  <a href="https://www.facebook.com/jacytc/" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="https://www.instagram.com/jacytc1/" target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="https://x.com/jacytc1" target="_blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/company/jacytc"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@jacytrading" target="_blank"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </span>
+              </p>
+            </div>
+            <div class="col-md-4 text-center text-md-end">
+              <p style="font-size: 0.85rem; color: #666">
+                <span class="heart">❤</span> Follow us for updates
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============================================
+    MODERN FOOTER END
+    ============================================ -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const spinner = document.getElementById("spinner");
+        if (spinner) {
+          setTimeout(() => spinner.classList.remove("show"), 500);
+        }
+      });
+    </script>
+  </body>
+</html>
