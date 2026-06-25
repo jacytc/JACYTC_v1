@@ -44,39 +44,25 @@
     />
 
     <style>
-      /* ============================================
-         DESIGN TOKENS — page-specific only.
-         Header/Topbar/Navbar/Footer intentionally use
-         the SAME classes as index.html (text-primary,
-         btn-primary, bg-dark, etc.) so they inherit
-         identical color/font/background from style.css —
-         no overrides needed here for those regions.
-
-         These tokens below only style the Team
-         Verification content area (trust bar, verify
-         cards, notice/disclaimer/support panels) and are
-         set to match the site's primary green so the
-         whole page reads as one consistent brand.
-      ============================================ */
       :root {
         --primary: #32c36c !important;
         --primary-deep: #259856 !important;
+        --primary-light: #e8f8f0;
         --ink: #1a1c22;
         --ink-soft: #5b6270;
         --paper: #faf8f5;
         --line: #e8e3da;
-        --verified: #2f8a5b;
-        --verified-bg: #eaf6ef;
+        --verified: #32c36c;
+        --verified-bg: #e8f8f0;
         --font-display: "Roboto", sans-serif;
         --font-body: "Open Sans", sans-serif;
-        --font-mono: "Roboto", sans-serif;
       }
 
       .verify-page {
         background: var(--paper);
       }
 
-      /* ── Section heading treatment ── */
+      /* ── Section heading ── */
       .verify-heading-block {
         max-width: 640px;
         margin: 0 auto 3rem;
@@ -86,7 +72,7 @@
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        font-family: var(--font-mono);
+        font-family: var(--font-display);
         font-weight: 700;
         font-size: 0.72rem;
         letter-spacing: 0.18em;
@@ -115,9 +101,7 @@
         line-height: 1.65;
       }
 
-      /* ============================================
-         TRUST BAR
-      ============================================ */
+      /* ── Trust Bar ── */
       .trust-bar {
         display: flex;
         align-items: center;
@@ -160,122 +144,128 @@
         font-weight: 600;
       }
 
-      .navbar-brand img {
-        height: 50px;
-        width: auto;
-        margin-right: 10px;
-      }
-
-      /* ============================================
-         TEAM CARDS — verification seal motif
-      ============================================ */
-      .verify-card {
+      /* ── Team Cards ── */
+      .team-card {
         background: #fff;
         border: 1px solid var(--line);
         border-radius: 16px;
         overflow: hidden;
         height: 100%;
-        transition:
-          box-shadow 0.25s ease,
-          transform 0.25s ease;
+        transition: all 0.3s ease;
         position: relative;
+        text-align: center;
+        padding: 30px 20px 25px;
       }
-      .verify-card:hover {
-        box-shadow: 0 14px 32px rgba(26, 28, 34, 0.08);
-        transform: translateY(-3px);
+      .team-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(50, 195, 108, 0.12);
+        border-color: var(--primary);
       }
-      .verify-card-media {
-        position: relative;
-        aspect-ratio: 4 / 3.1;
-        overflow: hidden;
-        background: #eee;
-      }
-      .verify-card-media img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-      }
-      /* The seal: a small notched badge sitting on the photo corner */
-      .verify-seal {
-        position: absolute;
-        top: 12px;
-        right: 12px;
-        display: inline-flex;
-        align-items: center;
-        gap: 5px;
-        background: rgba(255, 255, 255, 0.96);
-        backdrop-filter: blur(4px);
-        border-radius: 100px;
-        padding: 5px 11px 5px 8px;
-        font-family: var(--font-mono);
-        font-weight: 700;
-        font-size: 0.66rem;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        color: var(--verified);
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-      }
-      .verify-seal i {
-        font-size: 0.7rem;
-      }
-      .verify-card-social {
-        position: absolute;
-        inset: auto 0 0 0;
-        display: flex;
-        justify-content: center;
-        gap: 8px;
-        padding: 14px;
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.55), transparent);
-        opacity: 0;
-        transform: translateY(8px);
-        transition: all 0.25s ease;
-      }
-      .verify-card:hover .verify-card-social {
-        opacity: 1;
-        transform: translateY(0);
-      }
-      .verify-card-social a {
-        width: 34px;
-        height: 34px;
+
+      /* Avatar Circle */
+      .team-avatar {
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
-        background: rgba(255, 255, 255, 0.92);
-        color: var(--ink);
+        margin: 0 auto 18px;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 0.8rem;
-        transition: background 0.2s ease;
-      }
-      .verify-card-social a:hover {
-        background: var(--primary);
+        font-size: 2.8rem;
         color: #fff;
+        background: linear-gradient(
+          135deg,
+          var(--primary),
+          var(--primary-deep)
+        );
+        position: relative;
+        transition: all 0.3s ease;
+        box-shadow: 0 8px 25px rgba(50, 195, 108, 0.25);
       }
-      .verify-card-body {
-        padding: 18px 20px 20px;
+      .team-card:hover .team-avatar {
+        transform: scale(1.05) rotate(-3deg);
+        box-shadow: 0 12px 35px rgba(50, 195, 108, 0.35);
       }
-      .verify-card-body h5 {
+
+      /* All avatars use same green gradient */
+      .team-avatar.partner,
+      .team-avatar.director,
+      .team-avatar.engineer,
+      .team-avatar.manager {
+        background: linear-gradient(135deg, #32c36c, #1a8a4a);
+        box-shadow: 0 8px 25px rgba(50, 195, 108, 0.3);
+      }
+
+      /* Verification Badge on Avatar */
+      .verify-badge {
+        position: absolute;
+        bottom: -2px;
+        right: -2px;
+        width: 32px;
+        height: 32px;
+        background: var(--verified);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 0.8rem;
+        border: 3px solid #fff;
+        box-shadow: 0 2px 10px rgba(50, 195, 108, 0.3);
+      }
+
+      .team-card h5 {
         font-family: var(--font-display);
         font-weight: 700;
-        font-size: 1.08rem;
+        font-size: 1.1rem;
         color: var(--ink);
-        margin-bottom: 3px;
+        margin-bottom: 4px;
       }
-      .verify-role {
+
+      .team-role {
         display: inline-block;
-        font-size: 0.74rem;
+        font-size: 0.72rem;
         font-weight: 700;
         letter-spacing: 0.04em;
         text-transform: uppercase;
         color: var(--primary-deep);
-        background: #e9f9ef;
-        padding: 3px 10px;
+        background: var(--primary-light);
+        padding: 4px 14px;
         border-radius: 100px;
+        margin-bottom: 12px;
       }
 
-      /* ============================================
-         NOTICE / DISCLAIMER / SUPPORT — right-hand stack
-      ============================================ */
+      /* Status indicator */
+      .status-indicator {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 0.7rem;
+        color: var(--verified);
+        font-weight: 600;
+        margin-top: 5px;
+      }
+      .status-indicator .dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--verified);
+        animation: pulse-dot 2s infinite;
+      }
+
+      @keyframes pulse-dot {
+        0%,
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.5;
+          transform: scale(0.8);
+        }
+      }
+
+      /* ── Notice / Disclaimer / Support ── */
       .info-stack {
         display: flex;
         flex-direction: column;
@@ -294,16 +284,13 @@
         display: flex;
         align-items: center;
         gap: 9px;
-        font-family: var(--font-mono);
+        font-family: var(--font-display);
         font-weight: 700;
         font-size: 0.78rem;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: var(--primary-deep);
         margin-bottom: 16px;
-      }
-      .notice-panel h6 i {
-        font-size: 0.85rem;
       }
       .notice-panel ul {
         list-style: none;
@@ -339,7 +326,7 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        font-family: var(--font-mono);
+        font-family: var(--font-display);
         font-weight: 700;
         font-size: 0.74rem;
         letter-spacing: 0.06em;
@@ -396,6 +383,7 @@
         margin-bottom: 14px;
         width: 100%;
         justify-content: center;
+        border: none;
       }
       .phone-cta:hover {
         background: var(--primary-deep);
@@ -425,9 +413,13 @@
         padding: 1rem 0 6rem;
       }
 
-      /* ============================================
-         MODERN FOOTER STYLES (copied from reference)
-      ============================================ */
+      /* ── Navbar / Footer ── */
+      .navbar-brand img {
+        height: 50px;
+        width: auto;
+        margin-right: 10px;
+      }
+
       .footer {
         background: linear-gradient(
           135deg,
@@ -438,7 +430,6 @@
         position: relative;
         overflow: hidden;
       }
-
       .footer::before {
         content: "";
         position: absolute;
@@ -450,7 +441,6 @@
         background-size: 200% 100%;
         animation: shimmer 3s ease-in-out infinite;
       }
-
       @keyframes shimmer {
         0%,
         100% {
@@ -460,7 +450,6 @@
           background-position: 100% 0%;
         }
       }
-
       .footer h5 {
         color: #ffffff !important;
         font-weight: 700;
@@ -470,7 +459,6 @@
         padding-bottom: 12px;
         letter-spacing: 0.5px;
       }
-
       .footer h5::after {
         content: "";
         position: absolute;
@@ -482,18 +470,15 @@
         border-radius: 2px;
         transition: width 0.3s ease;
       }
-
       .footer h5:hover::after {
         width: 60px;
       }
-
       .footer .office-info {
         color: #cbd5e0;
         font-size: 0.92rem;
         line-height: 1.8;
         transition: all 0.3s ease;
       }
-
       .footer .office-info i {
         color: #32c36c;
         width: 24px;
@@ -502,11 +487,9 @@
         margin-right: 5px;
         transition: transform 0.3s ease;
       }
-
       .footer .office-info:hover i {
         transform: scale(1.2) rotate(5deg);
       }
-
       .footer .quick-link {
         color: #cbd5e0 !important;
         text-decoration: none;
@@ -518,7 +501,6 @@
         transition: all 0.3s ease;
         border-bottom: 1px solid transparent;
       }
-
       .footer .quick-link i {
         color: #32c36c;
         font-size: 0.6rem;
@@ -526,23 +508,19 @@
         transform: translateX(-10px);
         transition: all 0.3s ease;
       }
-
       .footer .quick-link:hover {
         color: #32c36c !important;
         padding-left: 10px;
       }
-
       .footer .quick-link:hover i {
         opacity: 1;
         transform: translateX(0);
       }
-
       .social-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 6px;
       }
-
       .social-link-modern {
         display: inline-flex;
         align-items: center;
@@ -556,14 +534,12 @@
         transition: all 0.3s ease;
         border: 1px solid rgba(255, 255, 255, 0.05);
       }
-
       .social-link-modern i {
         width: 20px;
         font-size: 0.9rem;
         text-align: center;
         transition: all 0.3s ease;
       }
-
       .social-link-modern:hover {
         background: rgba(50, 195, 108, 0.15);
         border-color: rgba(50, 195, 108, 0.3);
@@ -571,39 +547,14 @@
         box-shadow: 0 4px 15px rgba(50, 195, 108, 0.15);
         color: #32c36c !important;
       }
-
       .social-link-modern:hover i {
         transform: scale(1.2);
       }
-
-      .social-link-modern:hover .fa-pinterest {
-        color: #e60023;
-      }
-      .social-link-modern:hover .fa-instagram {
-        color: #e4405f;
-      }
-      .social-link-modern:hover .fa-facebook-f {
-        color: #1877f2;
-      }
-      .social-link-modern:hover .fa-linkedin-in {
-        color: #0a66c2;
-      }
-      .social-link-modern:hover .fa-twitter {
-        color: #1da1f2;
-      }
-      .social-link-modern:hover .fa-youtube {
-        color: #ff0000;
-      }
-      .social-link-modern:hover .fa-whatsapp {
-        color: #25d366;
-      }
-
       .gallery-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 3px;
       }
-
       .gallery-grid img {
         width: 100%;
         aspect-ratio: 1/1;
@@ -613,25 +564,21 @@
         border: 2px solid transparent;
         cursor: pointer;
       }
-
       .gallery-grid img:hover {
         transform: scale(1.05);
         border-color: #32c36c;
         box-shadow: 0 4px 20px rgba(50, 195, 108, 0.2);
       }
-
       .copyright {
         border-top: 1px solid rgba(255, 255, 255, 0.06);
         padding: 25px 0;
         margin-top: 20px;
       }
-
       .copyright .heart {
         color: #32c36c;
         display: inline-block;
         animation: heartbeat 1.5s ease-in-out infinite;
       }
-
       @keyframes heartbeat {
         0%,
         100% {
@@ -641,37 +588,31 @@
           transform: scale(1.2);
         }
       }
-
       .copyright p {
         color: #888;
         font-size: 0.9rem;
         margin-bottom: 0;
       }
-
       .copyright a {
         color: #32c36c;
         text-decoration: none;
         transition: color 0.3s ease;
         font-weight: 600;
       }
-
       .copyright a:hover {
         color: #259856;
         text-decoration: underline;
       }
-
       .copyright .social-mini {
         display: inline-flex;
         gap: 12px;
         margin-left: 15px;
       }
-
       .copyright .social-mini a {
         color: #666;
         font-size: 0.85rem;
         transition: all 0.3s ease;
       }
-
       .copyright .social-mini a:hover {
         color: #32c36c;
         transform: translateY(-2px);
@@ -685,7 +626,6 @@
           grid-template-columns: 1fr 1fr;
         }
       }
-
       @media (max-width: 768px) {
         .social-grid {
           grid-template-columns: 1fr;
@@ -706,7 +646,6 @@
           font-size: 0.9rem !important;
         }
       }
-
       @media (max-width: 576px) {
         .footer h5 {
           font-size: 1rem;
@@ -723,6 +662,14 @@
         }
         .navbar-brand h2 {
           font-size: 0.7rem !important;
+        }
+        .team-avatar {
+          width: 80px;
+          height: 80px;
+          font-size: 2.2rem;
+        }
+        .verify-heading-block h1 {
+          font-size: 1.8rem;
         }
       }
     </style>
@@ -858,7 +805,7 @@
           <span class="verify-eyebrow"
             ><span class="seal-dot"></span>Identity Verification</span
           >
-          <h1 class="mb-4">Experienced Team Members</h1>
+          <h1 class="mb-4">Meet Our Verified Team</h1>
           <p>
             Confirm the identity and active authorisation status of JACY Trading
             &amp; Consulting's official representatives before sharing
@@ -882,137 +829,93 @@
         </div>
 
         <div class="row g-4">
+          <!-- Team Member 1 - Partner -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="verify-card">
-              <div class="verify-card-media">
-                <img src="img/team-1.jpg" alt="Gracy Johnson" />
-                <span class="verify-seal"
-                  ><i class="fas fa-check-circle"></i>Verified</span
-                >
-                <div class="verify-card-social">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
+            <div class="team-card">
+              <div class="team-avatar partner">
+                <i class="fas fa-handshake"></i>
+                <span class="verify-badge"><i class="fas fa-check"></i></span>
               </div>
-              <div class="verify-card-body">
-                <h5>Gracy Johnson</h5>
-                <span class="verify-role">Partner</span>
-              </div>
+              <h5>Gracy Johnson</h5>
+              <span class="team-role">Partner</span>
+              <span class="status-indicator">
+                <span class="dot"></span> Active
+              </span>
             </div>
           </div>
+
+          <!-- Team Member 2 - Partner -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.15s">
+            <div class="team-card">
+              <div class="team-avatar partner">
+                <i class="fas fa-handshake"></i>
+                <span class="verify-badge"><i class="fas fa-check"></i></span>
+              </div>
+              <h5>John Bosco Robert</h5>
+              <span class="team-role">Partner</span>
+              <span class="status-indicator">
+                <span class="dot"></span> Active
+              </span>
+            </div>
+          </div>
+
+          <!-- Team Member 3 - Partner -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="verify-card">
-              <div class="verify-card-media">
-                <img src="img/team-2.jpg" alt="John Bosco Robert" />
-                <span class="verify-seal"
-                  ><i class="fas fa-check-circle"></i>Verified</span
-                >
-                <div class="verify-card-social">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
+            <div class="team-card">
+              <div class="team-avatar partner">
+                <i class="fas fa-handshake"></i>
+                <span class="verify-badge"><i class="fas fa-check"></i></span>
               </div>
-              <div class="verify-card-body">
-                <h5>John Bosco Robert</h5>
-                <span class="verify-role">Partner</span>
-              </div>
+              <h5>Johnson N</h5>
+              <span class="team-role">Partner</span>
+              <span class="status-indicator">
+                <span class="dot"></span> Active
+              </span>
             </div>
           </div>
+
+          <!-- Team Member 4 - Sales Director -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.25s">
+            <div class="team-card">
+              <div class="team-avatar director">
+                <i class="fas fa-users"></i>
+                <span class="verify-badge"><i class="fas fa-check"></i></span>
+              </div>
+              <h5>Jay N</h5>
+              <span class="team-role">Sales Director</span>
+              <span class="status-indicator">
+                <span class="dot"></span> Active
+              </span>
+            </div>
+          </div>
+
+          <!-- Team Member 5 - Technical Director -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="verify-card">
-              <div class="verify-card-media">
-                <img src="img/team-3.jpg" alt="Johnson N" />
-                <span class="verify-seal"
-                  ><i class="fas fa-check-circle"></i>Verified</span
-                >
-                <div class="verify-card-social">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
+            <div class="team-card">
+              <div class="team-avatar director">
+                <i class="fas fa-briefcase"></i>
+                <span class="verify-badge"><i class="fas fa-check"></i></span>
               </div>
-              <div class="verify-card-body">
-                <h5>Johnson N</h5>
-                <span class="verify-role">Partner</span>
-              </div>
+              <h5>Robert Sirumani</h5>
+              <span class="team-role">Technical Director</span>
+              <span class="status-indicator">
+                <span class="dot"></span> Active
+              </span>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="verify-card">
-              <div class="verify-card-media">
-                <img src="img/team-2.jpg" alt="Jay N" />
-                <span class="verify-seal"
-                  ><i class="fas fa-check-circle"></i>Verified</span
-                >
-                <div class="verify-card-social">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
+
+          <!-- Team Member 6 - Site Engineer -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.35s">
+            <div class="team-card">
+              <div class="team-avatar engineer">
+                <i class="fas fa-users"></i>
+                <span class="verify-badge"><i class="fas fa-check"></i></span>
               </div>
-              <div class="verify-card-body">
-                <h5>Jay N</h5>
-                <span class="verify-role">Sales Director</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="verify-card">
-              <div class="verify-card-media">
-                <img src="img/team-3.jpg" alt="Robert Sirumani" />
-                <span class="verify-seal"
-                  ><i class="fas fa-check-circle"></i>Verified</span
-                >
-                <div class="verify-card-social">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-              <div class="verify-card-body">
-                <h5>Robert Sirumani</h5>
-                <span class="verify-role">Technical Director</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="verify-card">
-              <div class="verify-card-media">
-                <img src="img/team-1.jpg" alt="Nachimuthu" />
-                <span class="verify-seal"
-                  ><i class="fas fa-check-circle"></i>Verified</span
-                >
-                <div class="verify-card-social">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-              <div class="verify-card-body">
-                <h5>Nachimuthu</h5>
-                <span class="verify-role">Site Engineer</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="verify-card">
-              <div class="verify-card-media">
-                <img src="img/team-1.jpg" alt="Kalimuthu" />
-                <span class="verify-seal"
-                  ><i class="fas fa-check-circle"></i>Verified</span
-                >
-                <div class="verify-card-social">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-              <div class="verify-card-body">
-                <h5>Kalimuthu</h5>
-                <span class="verify-role">Site Engineer</span>
-              </div>
+              <h5>Nachimuthu</h5>
+              <span class="team-role">Site Engineer</span>
+              <span class="status-indicator">
+                <span class="dot"></span> Active
+              </span>
             </div>
           </div>
         </div>
@@ -1024,7 +927,6 @@
     <div class="container-xxl pamphlet-section verify-page">
       <div class="container">
         <div class="row g-4">
-          <!-- Left: Notice -->
           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
             <div class="notice-panel">
               <h6>
@@ -1056,7 +958,6 @@
             </div>
           </div>
 
-          <!-- Right: Disclaimer + Support -->
           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
             <div class="info-stack">
               <div class="disclaimer-panel">
@@ -1099,21 +1000,17 @@
       </div>
     </div>
 
-    <!-- ============================================
-    MODERN FOOTER START (updated from reference)
-    ============================================ -->
+    <!-- Footer Start -->
     <div
       class="container-fluid footer mt-5 pt-5 wow fadeIn"
       data-wow-delay="0.1s"
     >
       <div class="container py-5">
         <div class="row g-4">
-          <!-- Column 1: Office & Locations -->
           <div class="col-lg-4 col-md-6">
             <h5 class="text-white mb-4">
               <i class="fas fa-building me-2" style="color: #32c36c"></i>Office
             </h5>
-
             <div class="office-info mb-2">
               <div>
                 <h6 class="text-white">Head Office</h6>
@@ -1132,7 +1029,6 @@
                 >
               </div>
             </div>
-
             <div class="office-info">
               <i class="fas fa-phone-alt"></i>
               <a
@@ -1141,7 +1037,6 @@
                 >+91-741-888-0930</a
               >
             </div>
-
             <div class="office-info mb-3">
               <i class="fas fa-envelope"></i>
               <a
@@ -1152,7 +1047,6 @@
             </div>
           </div>
 
-          <!-- Column 2: Quick Links -->
           <div class="col-lg-2 col-md-6">
             <h5 class="text-white mb-4">
               <i class="fas fa-link me-2" style="color: #32c36c"></i>Quick Links
@@ -1172,12 +1066,11 @@
             <a class="quick-link" href="quote.html"
               ><i class="fas fa-chevron-right"></i> Free Quote</a
             >
-            <a class="quick-link" href="team-members.html"
+            <a class="quick-link" href="team.html"
               ><i class="fas fa-chevron-right"></i> Team Members</a
             >
           </div>
 
-          <!-- Column 3: Follow Us - Social Media Grid -->
           <div class="col-lg-3 col-md-6">
             <h5 class="text-white mb-4">
               <i class="fas fa-share-alt me-2" style="color: #32c36c"></i>Follow
@@ -1188,70 +1081,53 @@
                 class="social-link-modern"
                 href="https://in.pinterest.com/jacytc/"
                 target="_blank"
-                title="Pinterest"
+                ><i class="fab fa-pinterest"></i> Pinterest</a
               >
-                <i class="fab fa-pinterest"></i> Pinterest
-              </a>
               <a
                 class="social-link-modern"
                 href="https://www.instagram.com/jacytc1/"
                 target="_blank"
-                title="Instagram"
+                ><i class="fab fa-instagram"></i> Instagram</a
               >
-                <i class="fab fa-instagram"></i> Instagram
-              </a>
               <a
                 class="social-link-modern"
                 href="https://www.facebook.com/jacytc/"
                 target="_blank"
-                title="Facebook"
+                ><i class="fab fa-facebook-f"></i> Facebook</a
               >
-                <i class="fab fa-facebook-f"></i> Facebook
-              </a>
               <a
                 class="social-link-modern"
                 href="https://www.linkedin.com/company/jacytc"
                 target="_blank"
-                title="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i> LinkedIn</a
               >
-                <i class="fab fa-linkedin-in"></i> LinkedIn
-              </a>
               <a
                 class="social-link-modern"
                 href="https://x.com/jacytc1"
                 target="_blank"
-                title="Twitter"
+                ><i class="fab fa-twitter"></i> Twitter</a
               >
-                <i class="fab fa-twitter"></i> Twitter
-              </a>
               <a
                 class="social-link-modern"
                 href="https://www.youtube.com/@jacytrading"
                 target="_blank"
-                title="Company YouTube"
+                ><i class="fab fa-youtube"></i> Company YT</a
               >
-                <i class="fab fa-youtube"></i> Company YT
-              </a>
               <a
                 class="social-link-modern"
                 href="https://www.youtube.com/@jacyconsulting"
                 target="_blank"
-                title="Consulting YouTube"
+                ><i class="fab fa-youtube"></i> Consulting YT</a
               >
-                <i class="fab fa-youtube"></i> Consulting YT
-              </a>
               <a
                 class="social-link-modern"
                 href="https://whatsapp.com/channel/0029VaQIjTE4tRrwNWwQIq2q"
                 target="_blank"
-                title="WhatsApp Channel"
+                ><i class="fab fa-whatsapp"></i> WhatsApp</a
               >
-                <i class="fab fa-whatsapp"></i> WhatsApp
-              </a>
             </div>
           </div>
 
-          <!-- Column 4: Project Gallery -->
           <div class="col-lg-3 col-md-6">
             <h5 class="text-white mb-4">
               <i class="fas fa-images me-2" style="color: #32c36c"></i>Project
@@ -1305,7 +1181,6 @@
         </div>
       </div>
 
-      <!-- Copyright Section -->
       <div class="container">
         <div class="copyright">
           <div class="row align-items-center">
@@ -1343,9 +1218,7 @@
         </div>
       </div>
     </div>
-    <!-- ============================================
-    MODERN FOOTER END
-    ============================================ -->
+    <!-- Footer End -->
 
     <!-- Back to Top -->
     <a
@@ -1367,9 +1240,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {

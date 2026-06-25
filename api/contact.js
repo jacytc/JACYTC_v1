@@ -88,7 +88,7 @@ export default async function handler(req, res) {
 
   try {
     await sendEmail({
-      to: "JACY Trading & Consulting LLP <" + process.env.ZOHO_EMAIL + ">",
+      to: `"JACY Trading & Consulting LLP" <${process.env.ZOHO_TO_EMAIL}>`,
       subject: `New Contact Request: ${subject}`,
       html,
       replyTo: email,

@@ -106,10 +106,10 @@ export default async function handler(req, res) {
 
   try {
     await sendEmail({
-      to: "enquiries@jacytc.com",
+      to: `"JACY Trading & Consulting LLP" <${process.env.ZOHO_TO_EMAIL}>`,
       subject: `New Quote Request from ${first_name} ${last_name}`,
       html,
-      replyTo: email,
+      replyTo: `"${first_name} ${last_name}" <${email}>`,
     });
 
     return res.status(200).json({
