@@ -1,6 +1,5 @@
-import { Resend } from "resend";
-
-const resend = new Resend(process.env.RESEND_API_KEY);
+// api/quote.js
+import { sendEmail } from "../lib/email/nodemailer.js";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -61,21 +60,20 @@ export default async function handler(req, res) {
     hour12: true,
   });
 
-  const htmlBody = `
+  const html = `
   <!DOCTYPE html>
   <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <style>
-      body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; }
-      .header { background-color: #51cc82; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
-      .content { padding: 20px; background-color: #f9f9f9; border-left: 1px solid #ddd; border-right: 1px solid #ddd; }
-      .footer { padding: 15px; text-align: center; font-size: 12px; color: #777; background-color: #f1f1f1; border-radius: 0 0 5px 5px; }
-      table { width: 100%; border-collapse: collapse; margin: 15px 0; }
-      th { background-color: #f2f2f2; text-align: left; padding: 10px; border: 1px solid #ddd; }
-      td { padding: 10px; border: 1px solid #ddd; }
-      .note-box { background-color: #fff8e1; padding: 15px; border-radius: 5px; margin-top: 15px; }
-    </style>
+  <head><meta charset="UTF-8">
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; }
+    .header { background-color: #51cc82; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+    .content { padding: 20px; background-color: #f9f9f9; border: 1px solid #ddd; border-top: none; }
+    .footer { padding: 15px; text-align: center; font-size: 12px; color: #777; background-color: #f1f1f1; border-radius: 0 0 5px 5px; }
+    table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+    th { background-color: #f2f2f2; text-align: left; padding: 10px; border: 1px solid #ddd; }
+    td { padding: 10px; border: 1px solid #ddd; }
+    .note-box { background-color: #fff8e1; padding: 15px; border-radius: 5px; margin-top: 15px; }
+  </style>
   </head>
   <body>
     <div class="header">
@@ -84,7 +82,7 @@ export default async function handler(req, res) {
     </div>
     <div class="content">
       <p>Dear JACY Team,</p>
-      <p>You have received a new quote request with the following details:</p>
+      <p>You have received a new quote request:</p>
       <table>
         <tr><th style="width:30%;">Field</th><th>Details</th></tr>
         <tr><td><strong>Date</strong></td><td>${formattedDate}</td></tr>
@@ -94,14 +92,10 @@ export default async function handler(req, res) {
       </table>
       ${
         special_note
-          ? `
-      <div class="note-box">
-        <h4>Special Note:</h4>
-        <p>${safeNote}</p>
-      </div>`
+          ? `<div class="note-box"><h4>Special Note:</h4><p>${safeNote}</p></div>`
           : "<p><em>No special note provided.</em></p>"
       }
-      <p style="margin-top:20px;">Please respond to this quote request within 24 hours.</p>
+      <p style="margin-top:20px;">Please respond within 24 hours.</p>
     </div>
     <div class="footer">
       <p>&copy; ${now.getFullYear()} JACY Trading &amp; Consulting LLP. All rights reserved.</p>
@@ -111,12 +105,11 @@ export default async function handler(req, res) {
   </html>`;
 
   try {
-    await resend.emails.send({
-      from: "JACY Trading & Consulting <onboarding@resend.dev>",
-      to: ["enquiries@jacytc.com"],
-      replyTo: email,
+    await sendEmail({
+      to: "enquiries@jacytc.com",
       subject: `New Quote Request from ${first_name} ${last_name}`,
-      html: htmlBody,
+      html,
+      replyTo: email,
     });
 
     return res.status(200).json({
@@ -125,7 +118,7 @@ export default async function handler(req, res) {
         "Thank you! Your quote request has been submitted. We will get back to you soon!",
     });
   } catch (err) {
-    console.error("Resend error:", err);
+    console.error("Quote form error:", err);
     return res.status(500).json({
       status: "error",
       message: "Sorry, failed to submit your request. Please try again later.",
